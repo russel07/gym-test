@@ -1,7 +1,7 @@
 <template>
   <Header />
   <div class="wrapper">
-    <h1>Login</h1>
+    <h1>Register</h1>
   </div>
 </template>
 
@@ -9,7 +9,7 @@
   import { ref } from 'vue';
   import Header from "./Header";
   export default {
-    name: 'Login',
+    name: 'Register',
     components: {
       Header,
     },
